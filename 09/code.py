@@ -51,17 +51,7 @@ def main():
 
     # PART 1
 
-    '''inp = R 5
-U 8
-L 8
-D 3
-R 17
-D 10
-L 25
-U 20'''.split('\n')
-
     visited = []
-
     head, tail = array([0, 0]), array([0, 0])
 
     for i in inp:
